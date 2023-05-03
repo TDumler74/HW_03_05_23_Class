@@ -17,15 +17,11 @@ public class Main {
 
     Soda voda = new Soda(" малина");
     System.out.println("Мы предлагаем воду с добавкой вкуса: " + voda.getDobavka() + '\n');
-
-
     voda.setDobavka("клубника");
     System.out.println("Вы заказали со вкусом: " + voda.getDobavka());
 
     /*
     Мы предлагаем воду с добавкой вкуса:  малина
-
-    Газвода со вкусом  малина
 
     Вы заказали со вкусом: клубника
      */
