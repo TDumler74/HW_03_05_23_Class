@@ -18,5 +18,8 @@ public class Main {
     Soda voda= new Soda("малина");
     System.out.println(voda);
 
+    voda.setDobavka("клубника");
+    System.out.println(voda);
+
   }
 }
