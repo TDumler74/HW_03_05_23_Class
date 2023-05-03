@@ -13,8 +13,4 @@ public class Soda {
   public void setDobavka(String dobavka) {
     this.dobavka = dobavka;
   }
-  public String toString() {
-    return "Газвода со вкусом " + dobavka;
-
-  }
 }
