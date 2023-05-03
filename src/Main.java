@@ -17,6 +17,7 @@ public class Main {
 
     Soda voda= new Soda(" малина");
     System.out.println("Мы предлагаем воду с добавкой вкуса: "+voda.getDobavka()+'\n');
+
     System.out.println(voda+"\n");
 
     voda.setDobavka("клубника");
