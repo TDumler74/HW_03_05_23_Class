@@ -15,11 +15,12 @@ public class Main {
 
   public static void main(String[] args) {
 
-    Soda voda= new Soda("малина");
-    System.out.println(voda);
+    Soda voda= new Soda(" малина");
+    System.out.println("Мы предлагаем воду с добавкой вкуса: "+voda.getDobavka()+'\n');
+    System.out.println(voda+"\n");
 
     voda.setDobavka("клубника");
-    System.out.println(voda);
+    System.out.println("Вы заказали со вкусом: "+voda.getDobavka());
 
   }
 }
